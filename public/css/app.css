@@ -1,0 +1,202 @@
+html, body, .container-fluid {
+  font-family: sans-serif;
+  height: 100%; }
+
+a:active, a:focus, a:hover, button, button:active, button:focus, embed, input::-moz-focus-inner, object {
+  outline: 0px none; }
+
+a:active, a:hover {
+  outline: 0px none; }
+
+#section2_resultados {
+  background-color: green; }
+
+.cd-section {
+  min-height: 100%;
+  position: relative; }
+
+.titulo_contenido_resultado {
+  font-size: 24px;
+  color: white;
+  font-family: sans-serif;
+  text-shadow: 1px 1px black; }
+
+.section_escargar_resultado {
+  padding-top: 17px; }
+
+.contenido_resultado_info {
+  font-size: 14px;
+  color: white;
+  font-family: sans-serif;
+  text-shadow: 1px 1px black;
+  text-align: justify; }
+
+.masinfo_resultados, .masinfo_resultados:active, .masinfo_resultados:hover, .masinfo_resultados:focus {
+  color: white;
+  text-decoration: underline; }
+
+.navbar {
+  background-color: #d52b1e !important;
+  border-color: transparent !important; }
+
+.navbar-brand-img {
+  z-index: 1;
+  position: absolute;
+  margin-left: 4; }
+
+.navbar-toggle .icon-bar {
+  background-color: white;
+  height: 3px !important; }
+
+.nav > li > a {
+  font-family: sans-serif;
+  font-size: 14px; }
+
+.nav > li.active {
+  background-color: #941E14 !important;
+  color: white !important; }
+
+.nav > li > a.promperu:hover {
+  background-color: #941E14 !important;
+  color: white !important; }
+
+.nav > li > a:focus {
+  background-color: #d52b1e !important; }
+
+.nav > li > a {
+  color: white !important; }
+
+.navbar-ram {
+  margin-left: 180px; }
+
+a.linkr, a.linkr:hover, a.linkr:active, a.linkr:visited, a.linkr:focus {
+  color: #70B9FA;
+  text-decoration: underline; }
+
+.hide {
+  display: none; }
+
+.espacio_entre_nav {
+  padding-top: 10%; }
+
+.no_backgroud {
+  background: none !important;
+  background-color: none !important; }
+
+.text-left {
+  text-align: left !important; }
+
+.sidebar.right {
+  display: none; }
+
+.sidebar.right {
+  width: 100%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.64);
+  position: fixed;
+  color: #FFF;
+  font-size: 1.4em;
+  top: 0px;
+  bottom: 0px;
+  background: #d52b1e none repeat scroll 0% 0%;
+  z-index: 9999; }
+
+.sidebar.right i {
+  font-size: 1.8em; }
+
+.btm-border {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #E32E21; }
+
+.btm-wthborder {
+  padding-left: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px; }
+
+a.sider_menu_item {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  width: 100%; }
+
+@media only screen and (max-width: 319px) {
+  .navbar {
+    min-height: 15px !important; }
+  .navbar-brand-img img {
+    width: 50% !important;
+    margin-left: 9% !important; }
+  .cd-section-content {
+    margin-top: 15% !important; }
+  .espacio_cont_rest {
+    margin-top: 20%; }
+}
+
+@media only screen and (min-width: 320px) {
+  .navbar {
+    min-height: 15px !important; }
+  .navbar-brand-img img {
+    width: 50% !important;
+    margin-left: 9% !important; }
+  .cd-section-content {
+    margin-top: 20% !important; }
+  .espacio_cont_rest {
+    margin-top: 25%; }
+}
+
+@media only screen and (min-width: 480px) {
+  .navbar {
+    min-height: 15px !important; }
+  .navbar-brand-img img {
+    width: 50% !important;
+    margin-left: 9% !important; }
+  .cd-section-content {
+    margin-top: 20% !important; }
+  .espacio_cont_rest {
+    margin-top: 25%; }
+}
+
+@media only screen and (min-width: 480px) and (orientation: landscape) {
+  .espacio_cont_rest_inicio {
+    margin-top: 1%; }
+  .espacio_cont_rest {
+    margin-top: 15%; } }
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    min-height: 35px !important; }
+  .navbar-brand-img img {
+    width: 75% !important;
+    margin-left: 0% !important; }
+  .espacio_cont_rest {
+    margin-top: 25%; }
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  .espacio_cont_rest {
+    margin-top: 55%; }
+}
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  .espacio_cont_rest {
+    margin-top: 37%; }
+}
+
+@media only screen and (min-width: 992px) {
+  .col-md-5ths {
+    width: 20%;
+    float: left; }
+  .navbar {
+    min-height: 45px !important; }
+  .navbar-brand-img img {
+    width: 75% !important;
+    margin-left: 15% !important; }
+  .espacio_cont_rest {
+    margin-top: 37%; }
+}
+
+@media only screen and (min-width: 1024px) {
+  .espacio_cont_rest {
+    margin-top: 20%; }
+}
