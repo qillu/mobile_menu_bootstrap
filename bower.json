@@ -1,0 +1,29 @@
+{
+  "name": "mobile_menu_bootstrap",
+  "homepage": "https://github.com/qillu/mobile_menu_bootstrap",
+  "authors": [
+    "Willy Aguirre <marti1125@gmail.com>"
+  ],
+  "description": "slide menu for mobile version",
+  "main": "index.html",
+  "keywords": [
+    "mobile",
+    "jquery",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "jquery-sidebar": "^3.3.2",
+    "jquery": "^3.0.0"
+  }
+}

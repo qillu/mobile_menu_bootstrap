@@ -1,5 +1,10 @@
 # Mobile Menu for Bootstrap
 
+##### Instructions (install dependencies):
+
+    $ npm i -g bower
+    $ bower install
+
 The MIT License (MIT)
 
 Copyright (c) 2016
